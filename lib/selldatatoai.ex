@@ -1,6 +1,6 @@
 defmodule SellDataToAI do
   @moduledoc """
-  Elixir client for the Data Asset Score API at https://www.selldatatoai.com/api/ .
+  Elixir client for the AI Data Value Score API at https://www.selldatatoai.com/api/ .
 
       client = SellDataToAI.new(System.fetch_env!("SDA_API_KEY"))
       {:ok, score} = SellDataToAI.score(client, "example.com")

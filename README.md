@@ -1,6 +1,6 @@
 # SellDataToAI for Elixir
 
-An Elixir client for the Data Asset Score API at [www.selldatatoai.com](https://www.selldatatoai.com/). Give it a company website and it returns that company's Data Asset Score, a number from 0 to 100 that estimates how much of the data AI buyers want the company holds.
+An Elixir client for the AI Data Value Score API at [www.selldatatoai.com](https://www.selldatatoai.com/). Give it a company website and it returns that company's AI Data Value Score, a number from 0 to 100 that estimates how much of the data AI buyers want the company holds.
 
 ```elixir
 def deps do
@@ -17,7 +17,7 @@ end
 
 Every AI data deal starts with a list of possible sellers. Most of those companies are the wrong fit: too young, too small, no exportable systems, or already shutting down. The score sorts that list before anyone spends time on it.
 
-Answers come from an index of 102 million domains, 99.99% of the active internet, with domain history. Each answer names the systems of record the company runs and the data types it likely holds, so you know what to pitch, not just whom.
+Answers come from an index of 120 million domains, 99.99% of the active internet, with domain history. Each answer names the systems of record the company runs and the data types it likely holds, so you know what to pitch, not just whom.
 
 If you are building a brokerage around this, the guide on [how to become an AI data broker](https://www.selldatatoai.com/how-to-become-an-ai-data-broker/) is frank about the economics. The companion piece on the [data broker business model](https://www.selldatatoai.com/data-broker-business-model/) shows how the money moves and when it arrives.
 
@@ -264,7 +264,7 @@ No free plan and no trial. If you want to see output before you subscribe, you c
 
 ### What is the selldatatoai Hex package?
 
-The selldatatoai Hex package is the Elixir client for the Data Asset Score API at selldatatoai.com. It scores company websites from 0 to 100 for the data AI buyers want and returns plain maps with grade, status, data systems and history.
+The selldatatoai Hex package is the Elixir client for the AI Data Value Score API at selldatatoai.com. It scores company websites from 0 to 100 for the data AI buyers want and returns plain maps with grade, status, data systems and history.
 
 ### Why `:httpc` and not Req or Finch?
 

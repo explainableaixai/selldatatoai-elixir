@@ -4,9 +4,9 @@ defmodule SellDataToAI.MixProject do
   def project do
     [
       app: :selldatatoai,
-      version: "1.0.0",
+      version: "1.0.1",
       elixir: "~> 1.14",
-      description: "Elixir client for the Data Asset Score API from selldatatoai.com: score company domains 0 to 100 for the data AI buyers want, singly or in batches of 100.",
+      description: "Elixir client for the AI Data Value Score API from selldatatoai.com: score company domains 0 to 100 for the data AI buyers want, singly or in batches of 100.",
       package: package(),
       deps: deps(),
       docs: [main: "readme", extras: ["README.md"]],
